@@ -17,7 +17,7 @@
         <div>{{ session('success') }}</div>
     @endif
 
-    <form method="POST" action="/submit-form">
+    <form method="POST" action="/form">
         @csrf
         <label for="name">Name:</label>
         <input type="text" name="name" value="{{ old('name') }}">
