@@ -1,3 +1,44 @@
+# Laravel-specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.*
+/.phpunit.result.cache
+/storage/debugbar
+/.vscode
+
+# Laravel IDE Helper
+/_ide_helper.php
+/_ide_helper_models.php
+/_ide_helper.php.debug
+
+# Composer
+composer.lock
+
+# Npm
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Laravel cache & sessions
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+
+# Laravel logs
+/storage/logs/*.log
+
+# Backup files
+*.bak
+*.swp
+
+
 /.phpunit.cache
 /node_modules
 /public/build
